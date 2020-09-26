@@ -5,8 +5,10 @@ def game_start
   puts "Welcome to Tic Tac Toe!"
   puts "Please choose player mode:
 
-   0 - Computer vs. Computer
-   1 - You vs. Computer
-   2 - You vs. Friend"
+  0 - Computer vs. Computer
+  1 - You vs. Computer
+  2 - You vs. Friend"
 
+  gets.strip
+  
 end
