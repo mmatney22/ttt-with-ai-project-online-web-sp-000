@@ -15,5 +15,6 @@ def game_start
     puts "Would you like to go first? (y/n)"
     Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
   elsif
+  end
 
 end
