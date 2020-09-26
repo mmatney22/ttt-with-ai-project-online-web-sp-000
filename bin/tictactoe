@@ -26,3 +26,5 @@ def game_start
   end
 
 end
+
+game_start until gets.strip == "n"
