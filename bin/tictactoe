@@ -10,5 +10,5 @@ def game_start
   2 - You vs. Friend"
 
   gets.strip
-  
+
 end
