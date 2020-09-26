@@ -9,6 +9,8 @@ def game_start
   1 - You vs. Computer
   2 - You vs. Friend"
 
-  gets.strip
+  player_mode = gets.strip
+
+  if player_mode == "0"
 
 end
