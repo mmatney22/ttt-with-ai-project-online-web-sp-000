@@ -11,6 +11,6 @@ def game_start
 
   player_mode = gets.strip
 
-  if player_mode == "0"
+  if player_mode == "1"
 
 end
