@@ -12,5 +12,6 @@ def game_start
   player_mode = gets.strip
 
   if player_mode == "1"
+    Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new)
 
 end
